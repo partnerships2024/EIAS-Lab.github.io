@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="Arial,sans-serif" font-size="15"><defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0L8,4L0,8z" fill="#53636B"/></marker></defs><rect width="800" height="400" fill="#fff"/><text x="400" y="40" text-anchor="middle" font-size="19" font-weight="bold" fill="#0A1F2C">Process at the edge, send only what matters</text>
+<rect x="30" y="150" width="140" height="90" rx="6" fill="#E3ECE6"/><text x="100" y="200" text-anchor="middle" font-weight="bold">Raw image</text>
+<rect x="230" y="130" width="160" height="130" rx="6" fill="#1F6B45"/><text x="310" y="190" text-anchor="middle" fill="#fff" font-weight="bold">Edge AI</text><text x="310" y="215" text-anchor="middle" fill="#D9EBDD" font-size="13">detect · fuse · prioritise</text>
+<rect x="450" y="150" width="140" height="90" rx="6" fill="#E8692B"/><text x="520" y="190" text-anchor="middle" fill="#fff" font-weight="bold">Smoke detected</text><text x="520" y="212" text-anchor="middle" fill="#fff" font-size="13">location · confidence</text>
+<rect x="640" y="150" width="130" height="90" rx="6" fill="#0A1F2C"/><text x="705" y="200" text-anchor="middle" fill="#fff" font-weight="bold">Dashboard</text>
+<g stroke="#53636B" stroke-width="2" marker-end="url(#a)"><path d="M172 195H228"/><path d="M392 195H448"/><path d="M592 195H638"/></g>
+<text x="400" y="330" text-anchor="middle" fill="#53636B">Lower bandwidth · lower latency · works with weak connectivity</text></svg>

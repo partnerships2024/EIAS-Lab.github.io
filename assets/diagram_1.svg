@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="Arial,sans-serif" font-size="15"><defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0L8,4L0,8z" fill="#53636B"/></marker></defs>
+<rect width="800" height="400" fill="#fff"/>
+<rect x="30" y="70" width="165" height="64" rx="6" fill="#1F6B45"/><text x="112" y="108" fill="#fff" text-anchor="middle" font-weight="bold">Environment</text>
+<line x1="197" y1="102" x2="218" y2="102" stroke="#53636B" stroke-width="2" marker-end="url(#a)"/>
+<rect x="220" y="70" width="165" height="64" rx="6" fill="#2AA7C9"/><text x="302" y="108" fill="#fff" text-anchor="middle" font-weight="bold">UAV swarm</text>
+<line x1="387" y1="102" x2="408" y2="102" stroke="#53636B" stroke-width="2" marker-end="url(#a)"/>
+<rect x="410" y="70" width="165" height="64" rx="6" fill="#2AA7C9"/><text x="492" y="108" fill="#fff" text-anchor="middle" font-weight="bold">Sensors</text>
+<line x1="577" y1="102" x2="598" y2="102" stroke="#53636B" stroke-width="2" marker-end="url(#a)"/>
+<rect x="600" y="70" width="165" height="64" rx="6" fill="#1F6B45"/><text x="682" y="108" fill="#fff" text-anchor="middle" font-weight="bold">Edge AI</text>
+<rect x="30" y="230" width="165" height="64" rx="6" fill="#1F6B45"/><text x="112" y="268" fill="#fff" text-anchor="middle" font-weight="bold">Collaborative intelligence</text>
+<line x1="197" y1="262" x2="218" y2="262" stroke="#53636B" stroke-width="2" marker-end="url(#a)"/>
+<rect x="220" y="230" width="165" height="64" rx="6" fill="#E8692B"/><text x="302" y="268" fill="#fff" text-anchor="middle" font-weight="bold">Hazard detection</text>
+<line x1="387" y1="262" x2="408" y2="262" stroke="#53636B" stroke-width="2" marker-end="url(#a)"/>
+<rect x="410" y="230" width="165" height="64" rx="6" fill="#E8692B"/><text x="492" y="268" fill="#fff" text-anchor="middle" font-weight="bold">Prediction</text>
+<line x1="577" y1="262" x2="598" y2="262" stroke="#53636B" stroke-width="2" marker-end="url(#a)"/>
+<rect x="600" y="230" width="165" height="64" rx="6" fill="#E8692B"/><text x="682" y="268" fill="#fff" text-anchor="middle" font-weight="bold">Early warning</text>
+<path d="M690 134v26H112v26" fill="none" stroke="#53636B" stroke-width="2" marker-end="url(#a)"/><text x="400" y="40" text-anchor="middle" font-size="20" font-weight="bold" fill="#0A1F2C">From observation to early warning</text><text x="400" y="360" text-anchor="middle" fill="#53636B">Decision support closes the loop and sets the next monitoring priorities</text></svg>

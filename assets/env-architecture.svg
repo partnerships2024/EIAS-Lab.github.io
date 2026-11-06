@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="Arial,sans-serif" font-size="15">
+<rect width="800" height="400" fill="#fff"/><text x="400" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#0A1F2C">Six-layer EIAS architecture</text>
+<rect x="120" y="55" width="560" height="46" rx="6" fill="#0A1F2C"/><text x="400" y="84" fill="#fff" text-anchor="middle" font-weight="bold">6  Decision support</text>
+<rect x="105" y="110" width="590" height="46" rx="6" fill="#E8692B"/><text x="400" y="139" fill="#fff" text-anchor="middle" font-weight="bold">5  Environmental intelligence</text>
+<rect x="90" y="165" width="620" height="46" rx="6" fill="#1F6B45"/><text x="400" y="194" fill="#fff" text-anchor="middle" font-weight="bold">4  AI intelligence</text>
+<rect x="75" y="220" width="650" height="46" rx="6" fill="#2AA7C9"/><text x="400" y="249" fill="#fff" text-anchor="middle" font-weight="bold">3  Edge computing</text>
+<rect x="60" y="275" width="680" height="46" rx="6" fill="#1F8FB5"/><text x="400" y="304" fill="#fff" text-anchor="middle" font-weight="bold">2  UAV swarm</text>
+<rect x="45" y="330" width="710" height="46" rx="6" fill="#5FB36B"/><text x="400" y="359" fill="#fff" text-anchor="middle" font-weight="bold">1  Environmental sensing</text>
+</svg>
