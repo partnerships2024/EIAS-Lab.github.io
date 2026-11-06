@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Architecture | EIAS Lab</title><meta name="description" content="Six-layer system architecture, edge strategy and digital twin.">
+<link rel="icon" href="assets/EIAS-logo.svg"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css"><script src="js/main.js" defer></script></head>
+<body><div id="site-header"></div><main>
+<section class="page-hero"><div class="wrap"><h1 style="font-size:clamp(2rem,5vw,3.4rem)">System architecture</h1><p class="lead">Six layers take raw observations to decisions, with computing placed as close to the sensor as possible.</p></div></section>
+<section class="sec"><div class="wrap"><figure><img src="assets/env-architecture.svg" alt="Six-layer EIAS architecture"></figure><div data-render="layers"></div></div></section>
+<section class="sec alt"><div class="wrap split"><div><h2>Edge strategy</h2><p>A UAV or nearby edge node processes data first. Cloud infrastructure is still used for historical storage, model training, large-scale analysis and long-term modelling.</p><p>Techniques include model compression, quantisation, lightweight neural networks and efficient inference pipelines.</p></div><figure><img src="assets/edge-ai-pipeline.svg" alt="Raw image processed by edge AI into a compact alert"></figure></div></section>
+<section class="sec"><div class="wrap split"><figure><img src="assets/digital-twin.svg" alt="Physical environment, UAV swarm, edge AI and digital twin loop"></figure><div><h2>Environmental digital twin</h2><p>A future extension keeps a computational copy of the monitored environment, updated continuously from UAV observations. It holds environmental state, hazard locations, history, predicted change, risk zones and intervention scenarios, enabling prediction and scenario analysis, not only monitoring.</p></div></div></section>
+</main><div id="site-footer"></div></body></html>
