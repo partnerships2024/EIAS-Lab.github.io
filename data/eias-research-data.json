@@ -1,0 +1,54 @@
+{
+"domains":[
+{"name":"Flood monitoring","color":"#2AA7C9","summary":"Dynamic flood maps from aerial imagery, updated as water spreads.","items":["Flood extent and inundated areas","Water-body expansion","Land-cover change","Post-flood environmental condition"]},
+{"name":"Wildfire monitoring","color":"#E8692B","summary":"RGB and thermal sensing to find fires early and follow their spread.","items":["Smoke and heat-anomaly detection","Fire-boundary mapping","Fire-spread monitoring","Post-fire assessment"]},
+{"name":"Air pollution","color":"#7B8A96","summary":"Distributed sensing for high-resolution pollution maps.","items":["Particulate matter and selected gases","Temperature and humidity","Pollution hotspots","Spatial pollution patterns"]},
+{"name":"Water quality","color":"#1F8FB5","summary":"Rivers, lakes and reservoirs monitored from above and at the surface.","items":["Visual quality indicators","Temperature, pH, turbidity","Dissolved oxygen where appropriate","Spatial pollution indicators"]},
+{"name":"Forest and ecosystems","color":"#1F6B45","summary":"Vegetation and habitat tracking, including recovery after disasters.","items":["Vegetation health","Deforestation and forest-cover change","Habitat disturbance","Multispectral sensing where required"]},
+{"name":"Landslides and land degradation","color":"#8A6A43","summary":"Terrain and vegetation change that signals unstable ground.","items":["Terrain change and erosion","Vegetation loss","Landslide-prone areas","Post-event landscape change"]}],
+"objectives":[
+{"t":"Intelligent environmental sensing","d":"A distributed UAV sensing system that collects spatially and temporally resolved observations."},
+{"t":"Edge-based environmental AI","d":"Lightweight models that detect anomalies and hazards close to the data source."},
+{"t":"Autonomous swarm coordination","d":"AI-based task allocation, area coverage, path planning and adaptive monitoring across UAVs."},
+{"t":"Environmental hazard detection","d":"Models that identify flooding, wildfire, pollution, landslides and ecosystem degradation."},
+{"t":"Environmental prediction","d":"Models that estimate how hazards may evolve and where they may spread."},
+{"t":"Real-time environmental intelligence","d":"A platform that combines UAV observations, edge-AI outputs, geospatial data and risk indicators."},
+{"t":"Industrial demonstration","d":"A prototype evaluated in controlled and field-oriented monitoring scenarios."}],
+"layers":[
+{"n":"1","name":"Environmental sensing","d":"RGB, thermal and multispectral cameras, atmospheric, temperature, humidity and water-quality sensors, plus positioning. Sensors are chosen per application."},
+{"n":"2","name":"UAV swarm","d":"Multiple UAVs decide which area needs monitoring, which UAV goes, the best route, the priorities, and when to return for recharging or replacement."},
+{"n":"3","name":"Edge computing","d":"Local image preprocessing, sensor fusion, hazard and anomaly detection, feature extraction, preliminary classification and event prioritisation."},
+{"n":"4","name":"AI intelligence","d":"Deep learning, computer vision, anomaly detection, time-series modelling, multi-agent reinforcement learning, sensor fusion and predictive modelling."},
+{"n":"5","name":"Environmental intelligence","d":"Environmental and hazard maps, risk scores, temporal trends, alerts and predicted hazard trajectories."},
+{"n":"6","name":"Decision support","d":"A dashboard with live UAV positions, observations, hazard locations, risk levels, historical comparisons and recommended monitoring priorities."}],
+"stages":[
+{"months":"Months 1–6","name":"Foundation","d":"Environmental requirements, system architecture, sensor selection, datasets, baseline AI models and prototype development."},
+{"months":"Months 7–12","name":"AI and edge intelligence","d":"Environmental computer vision, sensor fusion, edge-AI optimisation and anomaly detection."},
+{"months":"Months 13–18","name":"Swarm intelligence","d":"Multi-agent reinforcement learning, autonomous task allocation, route optimisation and energy-aware coordination."},
+{"months":"Months 19–24","name":"Environmental intelligence","d":"Environmental mapping, prediction, early-warning system and dashboard development."},
+{"months":"Months 25–30","name":"Demonstration","d":"Controlled and field-oriented testing, performance evaluation, system refinement and industrial validation."},
+{"months":"Months 31–36","name":"Translation","d":"Prototype maturity, deployment assessment, technology-transfer planning, publications, IP assessment and commercialisation strategy."}],
+"wps":[
+{"id":"WP1","focus":"Environmental requirements","out":"Use-case specification"},
+{"id":"WP2","focus":"UAV and sensor architecture","out":"Prototype sensing system"},
+{"id":"WP3","focus":"Edge computing","out":"Edge-AI infrastructure"},
+{"id":"WP4","focus":"Environmental AI","out":"Hazard-detection models"},
+{"id":"WP5","focus":"Swarm intelligence","out":"Autonomous coordination"},
+{"id":"WP6","focus":"Environmental prediction","out":"Risk and prediction models"},
+{"id":"WP7","focus":"Intelligence platform","out":"Real-time dashboard"},
+{"id":"WP8","focus":"Digital twin","out":"Environmental digital twin"},
+{"id":"WP9","focus":"Field validation","out":"Demonstration prototype"},
+{"id":"WP10","focus":"Industrial translation","out":"Deployment and commercialisation strategy"}],
+"risks":[
+{"r":"Communication failure","w":"UAVs lose connectivity.","m":"Edge processing, local autonomy and decentralised swarm coordination."},
+{"r":"Limited UAV energy","w":"Flight endurance is short.","m":"Energy-aware routing, dynamic task allocation and coordinated UAV replacement."},
+{"r":"AI false alarms","w":"A hazard is detected incorrectly.","m":"Multi-sensor fusion, confidence estimation, model validation and human oversight."},
+{"r":"Environmental conditions","w":"Wind, rain, smoke or extreme weather disrupts flights.","m":"Weather-aware mission planning and adaptive deployment."},
+{"r":"Edge hardware limits","w":"AI models are too heavy for onboard hardware.","m":"Lightweight architectures, compression, quantisation and hardware-aware optimisation."}],
+"metrics":{
+"AI performance":["Accuracy, precision, recall, F1-score","Intersection over Union","Detection latency","False-alarm rate"],
+"Edge performance":["Inference time","CPU/GPU utilisation","Memory and energy consumption","Communication bandwidth"],
+"Swarm performance":["Environmental coverage","Mission completion time","Energy and task-allocation efficiency","Collision avoidance and communication robustness"],
+"Environmental performance":["Hazard-detection lead time","Mapping accuracy","Spatial and temporal resolution","Prediction performance"],
+"Industrial performance":["Operational cost","Monitoring time reduction","Reduction in manual field surveys","Scalability, reliability, deployment feasibility"]}
+}
